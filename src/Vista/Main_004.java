@@ -39,7 +39,6 @@ public class Main_004 {
         } else {
             System.out.println("Opcion no valida. Por favor ingresar T o C: ");
         }
-        
         teclado.close();
     }
 }

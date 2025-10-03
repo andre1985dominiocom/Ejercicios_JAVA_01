@@ -10,7 +10,7 @@ public class Ejercicio_04 {
             // Calcular el área del triágulo base * altura / 2
             double areaTriangulo = base * altura / 2;
             
-            System.out.println("--- Calcular de Area del Triangulo ---");
+            System.out.println("--- Calcular Area del Triangulo ---");
             System.out.println("Base: " + base);
             System.out.println("Altura: " + altura);
             System.out.println("El area del Triangulo es: " + areaTriangulo);

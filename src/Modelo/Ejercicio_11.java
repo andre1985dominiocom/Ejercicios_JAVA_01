@@ -5,7 +5,7 @@ package Modelo;
 
 public class Ejercicio_11 {
 
-    // Crear variables para almacenar los datos de los estudiantes
+    // Crear variables y listas para almacenar los datos de los estudiantes
     public String[] nombres;
     public String[] apellidos;
     public int[] edades;

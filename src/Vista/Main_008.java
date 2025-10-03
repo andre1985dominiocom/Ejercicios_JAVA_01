@@ -13,11 +13,11 @@ public abstract class Main_008 {
         Scanner scanner = new Scanner(System.in);
 
         // Solicitar el tipo de empleado
-        System.out.print("Ingrese el tipo de empleado (planta/administrativo): ");
+        System.out.print("Ingresar el tipo de empleado (planta/administrativo): ");
         String tipoEmpleado = scanner.nextLine();
 
         // Solicitar el total de horas trabajadas
-        System.out.print("Ingrese el total de horas trabajadas: ");
+        System.out.print("Ingresar el total de horas trabajadas: ");
         int horasTrabajadas = scanner.nextInt();
 
         // Calcular el pago utilizando la clase Ejercicio_o8

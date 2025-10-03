@@ -10,8 +10,9 @@ public abstract class Main_011 {
     Scanner teclado = new Scanner(System.in);
     
     int numeroEstudiantes = 5; // Número de estudiantes
-    Ejercicio_11 curso = new Ejercicio_11(numeroEstudiantes);
-
+    Ejercicio_11 curso = new Ejercicio_11(numeroEstudiantes); // Llamar clase para ejecicio_11 para determinar número de estudiantes
+    
+    // Iterar número de estudiantes por medio de un for
     System.out.println("\n==== Estudiantes ====");
     for (int i = 0; i < numeroEstudiantes; i++) {
         System.out.println("Estudiante " + (i + 1) + ": " +
@@ -35,9 +36,15 @@ public abstract class Main_011 {
         curso.notasPromedio[i] = teclado.nextDouble();
 
         System.out.println(); // Línea en blanco para mejor legibilidad
-
+        
+        //Llamar el método de la clase ejercicio_11
+        Ejercicio_11 promedio = new Ejercicio_11(numeroEstudiantes);
+        promedio.resultado(i);
+                
+        Ejercicio_11 resultado = new Ejercicio_11(numeroEstudiantes);
+        resultado.mayorEdad(i);
+        
         teclado.nextLine(); // Limpiar el buffer del teclado
-
     }
 }
 }

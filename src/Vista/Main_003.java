@@ -11,7 +11,7 @@ public class Main_003 {
     public static void main(String[] args) {
         
         // Título de la entrada
-        System.out.println("=====Programa para identificar el mayor, el menor o la igualdad de tres numeros===== ");
+        System.out.println("===== Programa para identificar el mayor, el menor o la igualdad de tres numeros ===== ");
         
         // Llamar la clase Scanner para solcitar al usuario el ingreso de números
         Scanner entrada = new Scanner(System.in);
@@ -29,6 +29,5 @@ public class Main_003 {
         // Crear objeto de la clase ejercicio_03
         Ejercicio_03 resultado = new Ejercicio_03();
         resultado.valoresNumericos(num1, num2, num3);
-        
     }
 }
